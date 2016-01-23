@@ -61,6 +61,6 @@ All documentation for the Code is present file [pdf](https://github.com/devanshd
 
 ### Screenshots
 
-[![](https://cloud.githubusercontent.com/assets/5080310/13098588/6e24de5e-d550-11e5-99e0-5cca38f64358.png)](https://cloud.githubusercontent.com/assets/5080310/13098588/6e24de5e-d550-11e5-99e0-5cca38f64358.png)
-[![](https://cloud.githubusercontent.com/assets/5080310/13098588/6e24de5e-d550-11e5-99e0-5cca38f64358.png)](https://cloud.githubusercontent.com/assets/5080310/13098588/6e24de5e-d550-11e5-99e0-5cca38f64358.png)
+[![](https://cloud.githubusercontent.com/assets/5080310/13098654/c27df1a2-d550-11e5-981f-5628ab66906f.png)](https://cloud.githubusercontent.com/assets/5080310/13098654/c27df1a2-d550-11e5-981f-5628ab66906f.png)
+[![](https://cloud.githubusercontent.com/assets/5080310/13098654/c27df1a2-d550-11e5-981f-5628ab66906f.png)](https://cloud.githubusercontent.com/assets/5080310/13098654/c27df1a2-d550-11e5-981f-5628ab66906f.png)
 
