@@ -1,7 +1,7 @@
 ![Logo](https://cloud.githubusercontent.com/assets/5080310/13088108/f4238158-d510-11e5-867e-c2a64675cb52.jpg)
 ### DIRT BIKE 3D
 
-IT is a 3 D dirt bike racing game where user have the option to choose difficuly, track, bike, type of controls and other physical parameters. Target is to finish the track as soon as possible collecting points and avoiding obstacles and to get your name registered in Leaderboard. It bikes 10 different tracks and 3 different bikes.
+It is a 3 D dirt bike racing game where user have the option to choose difficuly, track, bike, type of controls and other physical parameters. Target is to finish the track as soon as possible collecting points and avoiding obstacles and to get your name registered in Leaderboard. It bikes 10 different tracks and 3 different bikes.
 
 ### Features
 - No external physics engine is used. It is implemented from scratch using C++ OOP.
@@ -36,7 +36,7 @@ Just need freeglut3, freeglut3-dev along with build-essentials on Ubuntu.
 sudo apt-get install freeglut3 freeglut3-dev
 ```
 
-For complete GUI of game, Install Qt-Creater to run. 
+For start page UI of the game, Install Qt-Creater to run. 
 
 
 ### Building the Game
@@ -52,9 +52,15 @@ Copy this file and paste it in game-build-desktop-Qt_4_8_1_in_PATH__System__Rele
 ```
 cp run ../run
 cd ..
-run ./run
+./run
 ```
 
 ### Documentation
 
 All documentation for the Code is present file [pdf](https://github.com/devanshdalal/DirtBike_Racing_game_3D/blob/master/Documentation.pdf) which is automatically generated from the source code. HTML documentation is present [here](https://github.com/devanshdalal/DirtBike_Racing_game_3D/tree/master/game-build-desktop-Qt_4_8_1_in_PATH__System__Release/Game/html)
+
+### Screenshots
+
+[![](https://cloud.githubusercontent.com/assets/5080310/13098528/1ad555c6-d550-11e5-9220-9db73e72756e.png)](https://cloud.githubusercontent.com/assets/5080310/13098528/1ad555c6-d550-11e5-9220-9db73e72756e.png)
+[![](https://cloud.githubusercontent.com/assets/5080310/13098528/1ad555c6-d550-11e5-9220-9db73e72756e.png)](https://cloud.githubusercontent.com/assets/5080310/13098528/1ad555c6-d550-11e5-9220-9db73e72756e.png)
+
