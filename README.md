@@ -1,9 +1,20 @@
 ![Logo](https://cloud.githubusercontent.com/assets/5080310/13088108/f4238158-d510-11e5-867e-c2a64675cb52.jpg)
-## DIRT BIKE 3D
+### DIRT BIKE 3D
+
+IT is a 3 D dirt bike racing game where user have the option to choose difficuly, track, bike, type of controls and other physical parameters. Target is to finish the track as soon as possible collecting points and avoiding obstacles and to get your name registered in Leaderboard. It bikes 10 different tracks and 3 different bikes.
+
+### Features
+- No external physics engine is used. It is implemented from scratch using C++ OOP.
+- Tracks are constructed from bitmap images. 
+- Bikes and other objects are generated from special .obj files.
+- There is a practice mode as well where there is no scoreborad and timer.
+- Each screen has a GTA like map at the botton left depicting the current position of bike and next checkpoint.
+- There are 2 difficulty levels for this each track. i.e. Easy and Difficult.
+- We also have a speedometer to show the relative speed of the bike.
+- The game finishes only when all the checkpoints are reached.
 
 
-Dedicated to 2D game development, Torque 2D is an extremely powerful, flexible, and fast C++ engine which has been used in hundreds of professional games. It is a true cross platform solution providing you access to Windows, OSX, Linux, iOS, Android, and the web - all from one codebase. It includes an OpenGL batched rendering system, Box2D physics, OpenAL audio, skeletal and spritesheet animation, automated asset management, a modular project structure, TAML object persistence, and a C-like scripting language.
-
+### Structure
 
 It has a game-build-desktop folder.The game-build-desktop....  folder contains the assets used by the game . All the data of the game used by game engine is stored here.  A folder named game inside game-build-desktop ..... contains the source code of the game. build the makefile without any target and run the exceutable game in game-build-desktop......... folder.
 
@@ -47,32 +58,3 @@ run ./run
 ### Documentation
 
 All documentation for the Code is present file [pdf](https://github.com/devanshdalal/DirtBike_Racing_game_3D/blob/master/Documentation.pdf) which is automatically generated from the source code. HTML documentation is present [here](https://github.com/devanshdalal/DirtBike_Racing_game_3D/tree/master/game-build-desktop-Qt_4_8_1_in_PATH__System__Release/Game/html)
-
-### Community
-
-Don't go it alone! Join the active community around Torque 2D at GarageGames.com. Ask questions, talk about T2D and general game development topics, learn the latest news, or post a blog promoting your game or showing off additional engine features in your T2D fork.
-
-* [Torque 2D Beginner Forum](http://www.garagegames.com/community/forums/84)
-* [Torque 2D Professional Forum](http://www.garagegames.com/community/forums/85)
-* [GarageGames Community Blogs](http://www.garagegames.com/community/blogs)
-
-# License
-Copyright (c) 2012 GarageGames, LLC
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to
-deal in the Software without restriction, including without limitation the
-rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
-sell copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
-FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
-IN THE SOFTWARE.
