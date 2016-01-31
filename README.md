@@ -1,4 +1,4 @@
-![Torque Logo](https://cloud.githubusercontent.com/assets/5080310/13088108/f4238158-d510-11e5-867e-c2a64675cb52.jpg)
+![Logo](https://cloud.githubusercontent.com/assets/5080310/13088108/f4238158-d510-11e5-867e-c2a64675cb52.jpg)
 ## DIRT BIKE 3D
 
 
