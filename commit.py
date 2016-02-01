@@ -27,7 +27,7 @@ def main(argv):
 	# subprocess.call("git rm realwork.txt; git commit -m 'delete'; git push;", shell=True)
 	if len(argv)==2:
 		message = argv[1];
-		subprocess.call("GIT_AUTHOR_DATE=\'" + curdate + "\' GIT_COMMITTER_DATE=\'" + curdate + "\' git commit -m \'"+ message + "\' ;", shell=True)
+		subprocess.call("GIT_AUTHOR_DATE=\'" + curdate + "\' GIT_COMMITTER_DATE=\'" + curdate + "\' git commit -am \'"+ message + "\' ;", shell=True)
 	else:
 		subprocess.call("GIT_AUTHOR_DATE=\'" + curdate + "\' GIT_COMMITTER_DATE=\'" + curdate + "\' git commit -a ", shell=True)
 

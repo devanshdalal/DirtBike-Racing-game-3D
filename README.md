@@ -1,5 +1,5 @@
-![Torque Logo](http://static.garagegames.com/static/pg/logokits/Torque-Logo_H.png)
-## Torque 2D 3.2
+![Torque Logo](https://cloud.githubusercontent.com/assets/5080310/13088108/f4238158-d510-11e5-867e-c2a64675cb52.jpg)
+## DIRT BIKE 3D
 
 
 Dedicated to 2D game development, Torque 2D is an extremely powerful, flexible, and fast C++ engine which has been used in hundreds of professional games. It is a true cross platform solution providing you access to Windows, OSX, Linux, iOS, Android, and the web - all from one codebase. It includes an OpenGL batched rendering system, Box2D physics, OpenAL audio, skeletal and spritesheet animation, automated asset management, a modular project structure, TAML object persistence, and a C-like scripting language.
