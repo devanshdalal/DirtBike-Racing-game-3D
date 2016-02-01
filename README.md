@@ -12,13 +12,10 @@ The makefile makes a run executable which can be run through command line.
 An elaborate description of code is given in Documentation.
 
 
-
-### Branches
-
-
 ### Precompiled Version
 
 If you do not wish to compile the source code yourself, precompiled binary files for Ubuntu are available from the folder "game-build-desktop-Qt_4_8_1_in_PATH__System__Release".
+Just double click on **run** file 
 
 
 ### Requirements
@@ -28,16 +25,13 @@ Just need freeglut3, freeglut3-dev along with build-essentials on Ubuntu.
 sudo apt-get install freeglut3 freeglut3-dev
 ```
 
-For 
-
-
+For complete GUI of game, Install Qt-Creater to run. 
 
 
 ### Building the Game
 
 After downloading a copy of the source code.
 
-Quick Mode
 ```
 cd game-build-desktop-Qt_4_8_1_in_PATH__System__Release/Game
 make
@@ -50,28 +44,9 @@ cd ..
 run ./run
 ```
 
-* **Windows:** Visual Studio 2010, 2012, or 2013 (works with the free, "Express for Windows Desktop" version)
-* **OSX:** Xcode
-* **Linux:** Make
-* **iOS:** Xcode_iOS
-* **Android:** Eclipse
-* **Web:** Emscripten/Cmake
-
-See the [wiki](https://github.com/GarageGames/Torque2D/wiki) for available guides on platform setup and development.
-
-### Batteries Included
-
-![truck](http://t2dtutorials.com/img/Truck.png)
-
-Running Torque 2D for the first time out of the box will start you off in the Sandbox. The Sandbox is a collection of over 30 simple "toys" (or modules) which demonstrate various features in T2D. The default toy is a side scrolling level with a monster truck. To see a list of the available modules/toys to choose from, click on the `Show Tools` button in the lower right corner of the screen.
-
-Naturally all of the script code and assets for each toy are available to you in the modules folder to use as practical examples while learning T2D.
-
-The Sandbox is also an excellent framework for rapidly prototyping your own game ideas - it allows for easy integration of additional modules and provides numerous debugging features, like console access and real-time metrics.
-
 ### Documentation
 
-All documentation for the open source version of Torque 2D can be found on our [Github wiki page](https://github.com/GarageGames/Torque2D/wiki). It contains many tutorials, detailed technical information on engine systems, a script reference guide automatically generated from the source code, and articles on how to contribute to our open source development.
+All documentation for the Code is present here[pdf](). It contains many tutorials, detailed technical information on engine systems, a script reference guide automatically generated from the source code, and articles on how to contribute to our open source development.
 
 ### Community
 
