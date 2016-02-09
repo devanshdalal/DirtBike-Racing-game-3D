@@ -5,7 +5,6 @@
 Dedicated to 2D game development, Torque 2D is an extremely powerful, flexible, and fast C++ engine which has been used in hundreds of professional games. It is a true cross platform solution providing you access to Windows, OSX, Linux, iOS, Android, and the web - all from one codebase. It includes an OpenGL batched rendering system, Box2D physics, OpenAL audio, skeletal and spritesheet animation, automated asset management, a modular project structure, TAML object persistence, and a C-like scripting language.
 
 
-
 It has a game-build-desktop folder.The game-build-desktop....  folder contains the assets used by the game . All the data of the game used by game engine is stored here.  A folder named game inside game-build-desktop ..... contains the source code of the game. build the makefile without any target and run the exceutable game in game-build-desktop......... folder.
 
 The makefile makes a run executable which can be run through command line.
@@ -16,19 +15,25 @@ An elaborate description of code is given in Documentation.
 
 ### Branches
 
-Here is an overview of the branches found in the Torque 2D repository: 
-
-* **master:** this branch contains the current stable release code that can be used in a production environment. 
-* **development:** this branch is dedicated to active development. It contains the latest bug fixes, new features, and other updates. All pull requests need to go to the development branch. While we try our best to test all incoming changes, it is possible for mistakes to slip in therefore this branch should always be considered unstable.
-* **gh-pages:** this branch currently contains the html pages generated from doxygen for the engine and TorqueScript references.
 
 ### Precompiled Version
 
-If you do not wish to compile the source code yourself, precompiled binary files for Windows and OSX are available from the [Torque 2D Release Page](https://github.com/GarageGames/Torque2D/releases).
+If you do not wish to compile the source code yourself, precompiled binary files for Ubuntu are available from the folder "game-build-desktop-Qt_4_8_1_in_PATH__System__Release".
 
-### Building the Source
 
-After downloading a copy of the source code, the following project files for each platform are provided for you and can be found in the `engine/compilers` folder.
+### Requirements
+Just need freeglut3, freeglut3-dev along with build-essentials on Ubuntu. 
+
+```
+sudo apt-get install freeglut3 freeglut3-dev
+```
+
+
+
+### Building the Game
+
+After downloading a copy of the source code.
+cd game-build-desktop-Qt_4_8_1_in_PATH__System__Release/Game
 
 * **Windows:** Visual Studio 2010, 2012, or 2013 (works with the free, "Express for Windows Desktop" version)
 * **OSX:** Xcode
