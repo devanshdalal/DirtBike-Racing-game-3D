@@ -28,12 +28,27 @@ Just need freeglut3, freeglut3-dev along with build-essentials on Ubuntu.
 sudo apt-get install freeglut3 freeglut3-dev
 ```
 
+For 
+
+
 
 
 ### Building the Game
 
 After downloading a copy of the source code.
+
+Quick Mode
+```
 cd game-build-desktop-Qt_4_8_1_in_PATH__System__Release/Game
+make
+```
+It will build the game and generate ./run file.
+Copy this file and paste it in game-build-desktop-Qt_4_8_1_in_PATH__System__Release and run. i.e.
+```
+cp run ../run
+cd ..
+run ./run
+```
 
 * **Windows:** Visual Studio 2010, 2012, or 2013 (works with the free, "Express for Windows Desktop" version)
 * **OSX:** Xcode

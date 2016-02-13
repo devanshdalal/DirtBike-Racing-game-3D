@@ -20,7 +20,8 @@ def main(argv):
 		print "Error: Bad input."
 		sys.exit(1)
 	m = int(argv[0])
-	startdate = date.today() - timedelta(days=m)
+	startdate = date.today()# - timedelta(days=m)
+	print startdate
 	curdate = get_date_string(m, startdate)
 	# subprocess.call("echo '" + curdate + str(randint(0, 1000000)) +"' > realwork.txt; git add realwork.txt; GIT_AUTHOR_DATE='" + curdate + "' GIT_COMMITTER_DATE='" + curdate + "' git commit -m 'update'; git push;", shell=True)
 	# subprocess.call("git rm realwork.txt; git commit -m 'delete'; git push;", shell=True)
