@@ -1,5 +1,5 @@
+#DIRT BIKE 3D
 ![Logo](https://cloud.githubusercontent.com/assets/5080310/13088108/f4238158-d510-11e5-867e-c2a64675cb52.jpg)
-### DIRT BIKE 3D
 
 It is a 3 D dirt bike racing game where user have the option to choose difficuly, track, bike, type of controls and other physical parameters. Target is to finish the track as soon as possible collecting points and avoiding obstacles and to get your name registered in Leaderboard. It bikes 10 different tracks and 3 different bikes.
 
